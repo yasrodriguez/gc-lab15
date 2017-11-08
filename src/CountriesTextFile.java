@@ -9,6 +9,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * Provides methods to read/write from the countries text file.
+ * 
+ * @author Yasmin
+ *
+ */
 public class CountriesTextFile {
 
 	public static void readFromFile() {
@@ -40,7 +46,6 @@ public class CountriesTextFile {
 		File file = writeFile.toFile();
 
 		try {
-			// the true parameter appends to the end of the file
 			PrintWriter out = new PrintWriter(new FileOutputStream(file, true));
 			out.println(country);
 

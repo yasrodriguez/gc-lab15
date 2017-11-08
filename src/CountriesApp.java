@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * Allows the user to read a list of countries from a file and add countries to
+ * the file.
+ * 
+ * @author Yasmin
+ *
+ */
 public class CountriesApp {
 
 	public static void main(String[] args) {
@@ -26,10 +33,5 @@ public class CountriesApp {
 		}
 		scan.close();
 		System.out.println("Goodbye!");
-
-
-
-
 	}
-
 }
